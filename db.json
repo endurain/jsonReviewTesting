@@ -1,0 +1,28 @@
+{
+  "name": string,
+  "reviewId": string,
+  "reviewer": {
+    object (Reviewer)
+  },
+  "starRating": enum (StarRating),
+  "comment": string,
+  "createTime": string,
+  "updateTime": string,
+  "reviewReply": {
+    object (ReviewReply)
+  }
+},
+{
+  "name": string,
+  "reviewId": string,
+  "reviewer": {
+    object (Reviewer)
+  },
+  "starRating": enum (StarRating),
+  "comment": string,
+  "createTime": string,
+  "updateTime": string,
+  "reviewReply": {
+    object (ReviewReply)
+  }
+}
